@@ -7,6 +7,7 @@ import Buttondiff from "./Buttondiff";
 import ToggleButton from "./ToggleButton";
 import TabButton from "./TabButton";
 import Banner from "./Banner";
+import Tooltip from "./Tooltip";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
     <ToggleButton />
     <TabButton />
     <Banner />
+    <Tooltip />
   </StrictMode>,
   rootElement
 );
