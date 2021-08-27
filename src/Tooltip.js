@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
-import MaterialTooltip from "@material-ui/core/Tooltip";
+//import MaterialTooltip from "@material-ui/core/Tooltip";
 
 const Container = styled.div`
   background-color: lightblue;
@@ -35,9 +35,9 @@ export default function Tooltip() {
       <ReactStyledTooltip id="sadFace" effect="solid">
         <span>Show sad face</span>
       </ReactStyledTooltip>
-      <MaterialTooltip title="Tooltip-text">
+      {/* <MaterialTooltip title="Tooltip-text">
         <Container>Material UI default</Container>
-      </MaterialTooltip>
+      </MaterialTooltip> */}
     </div>
   );
 }
