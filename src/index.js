@@ -12,7 +12,16 @@ import Propspass from "./Propspass";
 import Stateprops from "./Stateprops";
 import Propex from "./Propex";
 import Propsmore from "./Propsmore";
+import Componentextract from "./Componentextract";
 
+const comment = {
+  date: new Date(),
+  text: "I hope you enjoy learning React!",
+  author: {
+    name: "Hello Kitty",
+    avatarUrl: "https://placekitten.com/g/64/64"
+  }
+};
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
@@ -27,6 +36,11 @@ ReactDOM.render(
     <Stateprops />
     <Propex />
     <Propsmore />
+    <Componentextract
+      date={comment.date}
+      text={comment.text}
+      author={comment.author}
+    />
   </StrictMode>,
   rootElement
 );
