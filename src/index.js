@@ -14,6 +14,7 @@ import Propex from "./Propex";
 import Propsmore from "./Propsmore";
 import Componentextract from "./Componentextract";
 import Imageprops from "./Imageprops";
+import Toggle from "./Toggle";
 
 const comment = {
   date: new Date(),
@@ -43,6 +44,7 @@ ReactDOM.render(
       author={comment.author}
     />
     <Imageprops />
+    <Toggle />
   </StrictMode>,
   rootElement
 );
