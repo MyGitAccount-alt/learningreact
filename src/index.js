@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import BasicBarChart from "./Demo/Charts/HighChart/BasicBarChart";
 import BasicLineChart from "./Demo/Charts/HighChart/BasicLineChart";
+import Dropdown from "./Dropdownmenu/Dropdown";
 
 // import Hello from "./Hello";
 // import Button from "./Button";
@@ -49,6 +50,7 @@ ReactDOM.render(
     <Toggle /> */}
     <BasicLineChart />
     <BasicBarChart />
+    <Dropdown />
   </StrictMode>,
   rootElement
 );
