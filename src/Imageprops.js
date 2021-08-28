@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-native";
-import { PIC_URL } from "./Urllinks";
+import { PIC_URL } from "./Configuration/Urllinks";
 
 const Imageprops = () => {
   let pic = `${PIC_URL}`;
