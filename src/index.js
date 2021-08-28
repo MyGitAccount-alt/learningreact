@@ -13,6 +13,7 @@ import Stateprops from "./Stateprops";
 import Propex from "./Propex";
 import Propsmore from "./Propsmore";
 import Componentextract from "./Componentextract";
+import Imageprops from "./Imageprops";
 
 const comment = {
   date: new Date(),
@@ -41,6 +42,7 @@ ReactDOM.render(
       text={comment.text}
       author={comment.author}
     />
+    <Imageprops />
   </StrictMode>,
   rootElement
 );
